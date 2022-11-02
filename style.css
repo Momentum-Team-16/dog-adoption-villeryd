@@ -9,4 +9,20 @@
     color: white;
     padding: 2em;
     font-family: 'Open Sans';
+    margin: auto;
+    width: 60%;
+    
 } 
+
+.title{
+    height: 2em;
+    padding: 1em;
+    margin: auto;
+    width: 60%;
+}
+
+.adoption-form{
+    height: 2em;
+    margin: auto;
+    width: 60%;
+}
