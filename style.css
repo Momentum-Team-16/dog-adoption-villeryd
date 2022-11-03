@@ -36,13 +36,14 @@
     border: 2px solid white;
     margin: auto;
 }
-/*.image {
+.image {
     width: auto;
-}*/
+}
 .dog {
     border: 2px solid white;
-    width: 32%;
+    width: 31%;
     height: auto;
+
 }
 
 .image img {
@@ -51,5 +52,14 @@
 .trait {
     border: #89deef;
     background-color: #89deef;
-    border-radius: 2em;
+    border-radius: 1em;
+    font-size: smaller;
+    padding: .1em;
+    margin: auto;
+   
+}
+.dog-tag{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
 }
