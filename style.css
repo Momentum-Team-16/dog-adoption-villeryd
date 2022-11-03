@@ -26,3 +26,30 @@
     margin: auto;
     width: 60%;
 }
+#main {
+    display: flex;
+    flex-grow: 1;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    width: 60%;
+    min-height: auto;
+    border: 2px solid white;
+    margin: auto;
+}
+/*.image {
+    width: auto;
+}*/
+.dog {
+    border: 2px solid white;
+    width: 32%;
+    height: auto;
+}
+
+.image img {
+    width: 100%;
+}
+.trait {
+    border: #89deef;
+    background-color: #89deef;
+    border-radius: 2em;
+}
