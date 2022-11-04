@@ -2,15 +2,26 @@
     margin: 0; 
     padding: 0; 
 }
+
+html {
+    background-color: lightgray;
+}
+
+body {
+    background-color: white;
+    margin:auto;
+    width: 80%;
+}
+
+
 .color-box {
     height: 2em;
     background-color: #004175;
     border-bottom: .2em solid #89deef;
     color: white;
-    padding: 2em;
+    padding: 2rem 2rem;
     font-family: 'Open Sans';
     margin: auto;
-    width: 60%;
     
 } 
 
@@ -18,20 +29,20 @@
     height: 2em;
     padding: 1em;
     margin: auto;
-    width: 60%;
+    width: 85%;
 }
 
 .adoption-form{
     height: 2em;
     margin: auto;
-    width: 60%;
+    width: 85%;
 }
 #main {
     display: flex;
     flex-grow: 1;
     flex-wrap: wrap;
     justify-content: flex-start;
-    width: 60%;
+    width: 85%;
     min-height: auto;
     border: 2px solid white;
     margin: auto;
@@ -55,7 +66,7 @@
     border-radius: 1em;
     font-size: smaller;
     padding: .1em;
-    margin: auto;
+    margin: .1em;
    
 }
 .dog-tag{
