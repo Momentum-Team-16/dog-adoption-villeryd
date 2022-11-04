@@ -5,12 +5,13 @@
 
 html {
     background-color: lightgray;
+    padding: 0 4rem;
 }
 
 body {
     background-color: white;
-    margin:auto;
-    width: 80%;
+    
+    
 }
 
 
@@ -21,7 +22,7 @@ body {
     color: white;
     padding: 2rem 2rem;
     font-family: 'Open Sans';
-    margin: auto;
+    
     
 } 
 
@@ -30,6 +31,13 @@ body {
     padding: 1em;
     margin: auto;
     width: 85%;
+    
+}
+.headline{
+    margin: auto;
+    display: flex;
+    justify-content: flex start;
+    
 }
 
 .adoption-form{
@@ -73,4 +81,55 @@ body {
     display: flex;
     flex-wrap: wrap;
     justify-content: flex-start;
+}
+footer{
+    display: flex;
+    flex: 1 1 auto;
+    justify-content: space-between;
+    margin: auto;
+    height: 14em;
+    width: 100%;
+    flex-grow: 1;
+    
+}
+.box{
+    width: 33.333%;
+    height: 100%;
+    display: flex;
+    flex: 1 1 auto;
+    flex-grow: 1;   
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: 'Oswald';
+    font-size: 2rem;   
+}
+
+.donate-link {
+    background: linear-gradient(
+      rgba(166, 169, 240, 0.45), 
+      rgba(166, 169, 240, 0.45)
+    ), 
+    url(starter_files/images/donate.jpg);
+    background-size: cover;
+    background-repeat: no-repeat; 
+
+}
+.volunteer-link {
+    background: linear-gradient(
+        rgba(166, 169, 240, 0.45), 
+        rgba(166, 169, 240, 0.45)
+      ), 
+      url(starter_files/images/volunteer.jpg);
+      background-size:cover;
+      background-repeat: no-repeat; 
+}
+.location-link {
+    background: linear-gradient(
+      rgba(166, 169, 240, 0.45), 
+      rgba(166, 169, 240, 0.45)
+    ), 
+    url(starter_files/images/location.png);
+    background-size: cover;
+    background-repeat: no-repeat; 
 }
